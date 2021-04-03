@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.cwilper.dobs.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.cwilper.dobs.MyBundle
 
 class MyApplicationService {
 
