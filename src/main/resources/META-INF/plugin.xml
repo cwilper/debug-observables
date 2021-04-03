@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>com.github.cwilper.dobs</id>
-    <name>dobs</name>
+    <name>Dobs</name>
     <vendor>cwilper</vendor>
 
     <!-- Product and plugin compatibility requirements -->
