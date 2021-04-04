@@ -1,7 +1,26 @@
 <idea-plugin>
     <id>com.github.cwilper.dobs</id>
-    <name>Dobs</name>
+    <name>Debug Observables</name>
     <vendor>cwilper</vendor>
 
     <depends>com.intellij.modules.platform</depends>
+
+    <actions>
+        <group id="com.github.cwilper.dobs.DobsActionGroup"
+               popup="false">
+            <add-to-group group-id="XDebugger.ValueGroup" relative-to-action="EvaluateExpression" anchor="before"/>
+            <action id="DobsEvalExpressionAction"
+                    class="com.github.cwilper.dobs.DobsEvalExpressionAction"
+                    text="Evaluate Observed Value Expression..."
+                    icon="AllIcons.Debugger.EvaluateExpression"/>
+            <action id="DobsEvalInConsoleAction"
+                    class="com.github.cwilper.dobs.DobsEvalInConsoleAction"
+                    text="Evaluate Observed Value in Console"/>
+            <action id="DobsAddToWatchesAction"
+                    class="com.github.cwilper.dobs.DobsAddToWatchesAction"
+                    text="Add Observed Value to Watches"
+                    icon="AllIcons.Debugger.AddToWatch"/>
+            <separator/>
+        </group>
+    </actions>
 </idea-plugin>
