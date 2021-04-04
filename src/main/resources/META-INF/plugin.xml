@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>com.github.cwilper.dobs</id>
+    <id>com.github.cwilper.debug-observables</id>
     <name>Debug Observables</name>
     <vendor>cwilper</vendor>
 
