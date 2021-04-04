@@ -1,4 +1,4 @@
-# Debug Observables - IntelliJ Plugin
+# Debug Observables for IntelliJ
 
 ![Build](https://github.com/cwilper/debug-observables/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
