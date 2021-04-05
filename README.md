@@ -5,7 +5,7 @@
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/16468.debug-observables.svg)](https://plugins.jetbrains.com/plugin/16468.debug-observables)
 
 <!-- Plugin description -->
-Adds options to evaluate RxJs Observable values when debugging TypeScript or Javascript.
+Adds options to evaluate RxJS Observable values when debugging TypeScript or JavaScript.
 When an Observable is selected in the Variables view, the
 context menu will show three new options:
 
