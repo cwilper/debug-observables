@@ -1,8 +1,8 @@
 # Debug Observables for IntelliJ
 
 ![Build](https://github.com/cwilper/debug-observables/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/com.github.cwilper.debug-observables.svg)](https://plugins.jetbrains.com/plugin/com.github.cwilper.debug-observables)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/com.github.cwilper.debug-observables.svg)](https://plugins.jetbrains.com/plugin/com.github.cwilper.debug-observables)
+[![Version](https://img.shields.io/jetbrains/plugin/v/16468-debug-observables.svg)](https://plugins.jetbrains.com/plugin/16468-debug-observables)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/16468.debug-observables.svg)](https://plugins.jetbrains.com/plugin/16468.debug-observables)
 
 <!-- Plugin description -->
 Adds options to evaluate RxJs Observable values when debugging TypeScript or Javascript.
