@@ -119,4 +119,8 @@ tasks {
         // https://plugins.jetbrains.com/docs/intellij/deployment.html#specifying-a-release-channel
         channels(properties("pluginVersion").split('-').getOrElse(1) { "default" }.split('.').first())
     }
+
+    runIde {
+        jvmArgs("-Xmx2g")
+    }
 }
