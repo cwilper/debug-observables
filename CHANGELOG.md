@@ -3,6 +3,10 @@
 # Debug Observables Changelog
 
 ## [Unreleased]
+### Updated
+- Test and marked as compatible with latest version of platform
+
+## 1.0.0
 ### Added
 - Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
 - Initial implementation completed
