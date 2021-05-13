@@ -3,6 +3,7 @@
 # Debug Observables Changelog
 
 ## [Unreleased]
+## [1.0.2]
 ### Fixed
 - [#10 - Occasional NPE when checking if Observable is selected](https://github.com/cwilper/debug-observables/issues/10)
 
