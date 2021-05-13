@@ -10,7 +10,7 @@ final class Util {
 
     public static boolean isObservableSelected(@NotNull AnActionEvent event) {
         XValueNodeImpl node = XDebuggerTreeActionBase.getSelectedNode(event.getDataContext());
-        return node.getRawValue().startsWith("Observable ");
+        return node != null && node.getRawValue() != null && node.getRawValue().startsWith("Observable ");
     }
 
     public static String getObservedExpression(String observableExpression) {
